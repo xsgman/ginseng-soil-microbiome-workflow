@@ -1,0 +1,18 @@
+[paths]
+# Copy this file to config.toml and update paths for your own data.
+# Keep private data outside Git or under ignored folders such as data/processed/.
+soil_workbook = "data/processed/soil_analysis_tables.xlsx"
+ginseng_workbook = "data/processed/ginseng_analysis_tables.xlsx"
+pcoa_scores = "data/processed/metagenomics/pcoa_scores.csv"
+pcoa_group_centers = "data/processed/metagenomics/pcoa_group_centers.csv"
+function_log2fc = "data/processed/metagenomics/function_log2FC_vs_CK.csv"
+genus_abundance = "data/processed/metagenomics/genus_abundance.csv"
+output_dir = "outputs/figures"
+
+[plot]
+months_soil = ["Jun", "Jul", "Aug", "Sep"]
+months_ginseng = ["Aug", "Sep"]
+treatments_focus = ["CK", "KXH", "RHB"]
+contrast_treatments = ["KXH", "RHB"]
+p_value_cutoff = 0.05
+rho_cutoff = 0.35
